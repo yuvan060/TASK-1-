@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Rubik&display=swap");
+* {
+  margin: auto;
+  padding: 0px;
+  text-align: justify;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+body {
+  position: relative;
+}
+
+.header {
+  padding: 2%;
+  background-color: rgb(76, 83, 107);
+  color: white;
+  top: 0px;
+  position: sticky;
+  width: auto;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.flexBox {
+  display: flex;
+  flex-direction: column;
+}
+.floater {
+  background-color: rgb(76, 83, 107);
+  position: fixed;
+  top: 12.1%;
+  left: 0px;
+  height: 90%;
+  width: 13%;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.content {
+  padding: 2%;
+  margin: 2%;
+  border-style: none;
+  border-color: aliceblue;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0);
+  z-index: 1;
+}
+.floaterRight {
+  /* top: 12.1%; */
+  flex-basis: 80%;
+  margin-left: 15%;
+  background-color: rgb(237, 246, 255);
+  font-family: "Lato", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+.links {
+  display: block;
+  margin: auto;
+  margin-left: 23px;
+  padding: 5%;
+  color: white;
+}
+.topics {
+  font-size: 2em;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+}
